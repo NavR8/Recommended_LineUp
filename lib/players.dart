@@ -6,10 +6,14 @@ class Players {
   int avgScore; //players[805] > 0{22} >
   String position;
   int totalScore;
+  String lastName;
+  var webImage;
 
   //Constructor
   Players(this.shortName,
       this.avgScore,
       this.position,
-      this.totalScore);
+      this.lastName,
+      this.totalScore,
+      this.webImage);
 }
